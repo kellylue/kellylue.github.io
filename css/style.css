@@ -90,12 +90,12 @@ img{
     border-radius: 0.8rem; 
 }
 
-.section-heading h1::after{
+/*.section-heading h1::after{
     width: 1.5rem; 
     height: 1.5rem; 
     border-radius: 100%; 
     bottom: -1.1rem; 
-}
+}*/
 
 .section-heading h6{
     font-size: 1.6rem; 
@@ -465,18 +465,6 @@ input[type="submit"]:hover{
         opacity: 0; 
     }
 }
-
-/* for typewriter effect */
-/*body {
-  background-color: rgb(102, 102, 93);
-  text-align: center;
-  color:rgb(156, 151, 151);
-  padding-top:10em;
-}
-
- { color: #194F92; text-decoration: none;}*/
-
- /* media queries */
 
  @media screen and (max-width: 768px) {
    body{
