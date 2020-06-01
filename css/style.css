@@ -360,6 +360,24 @@ li{
 /* end resume + experience */
 
 /* start contact */
+.contact-button{
+    align-content: center; 
+    justify-content: center;
+    display: flex; 
+}
+
+.contact-button button{
+    background-color: #efb7ba;
+    border: none; 
+    padding: 2rem; 
+    margin-top: 1.5rem; 
+    margin-bottom: 5rem;
+}
+
+.contact-button button:hover{
+    background-color: #194F92;
+}
+
 form{
     width: 70%; 
     margin: 0 auto; 
