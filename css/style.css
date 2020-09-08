@@ -16,23 +16,6 @@
     color: #194F92; 
 }
 
-float-left{
-    animation: floatInAnimation; 
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
-
-float-right{
-    animation: floatInAnimation; 
-    animation-iteration-count: 1;
-    animation-direction: reverse;
-}
-
-@keyframes floatInAnimation {
-    0% {transform: translateX(25%);
-        transition: 10ms ease; }
-}
-
 html{
     font-size: 10px; 
     font-family: 'Roboto', sans-serif; 
